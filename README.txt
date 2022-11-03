@@ -25,6 +25,9 @@ How IHAM works:
 * a simple consesnsus sequence is calculated and sequences that aren't similar enough to it (comparison uses a user-specified similarity threshold) are discarded so that fewer than 500 sequences remain
 * a tree is constructed using fasttree for use with hyphy
 * FUBAR analysis is performed on the remaining sequences 
+* alignments are combnined into MSA
+* MSA is used to make a newick tree and both are passed to BUSTED
+* output is csv
 
 instructions for use:
 1. copy the script into a folder containing one or more files of sequence alignments of a SINGLE gene/genomic region and make sure you are connected to the internet
