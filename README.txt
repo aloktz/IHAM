@@ -34,3 +34,4 @@ instructions for use:
     -f format: type the format of your alignment files in lower case
     -e extension: type the file extension of your alignment files in lower case
     -s similarity: type a float between 0 and 1 to set a similarity threshold for if the alignment must be reduced to a smaller set of representative sequences
+   you can change how many sequences will be used for FUBAR and BUSTED by changing the int value in line 363 and line 427 respectively
