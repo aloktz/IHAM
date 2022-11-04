@@ -22,7 +22,7 @@ Dependencies:
 How IHAM works: 
 *  alignment files in specified directory are parsed
 * terminal gaps and sequences with >= 50% gaps are discarded
-* a simple consesnsus sequence is calculated and sequences that aren't similar enough to it (comparison uses a user-specified similarity threshold) are discarded so that fewer than 500 sequences remain
+* a simple consensus sequence is calculated and sequences that aren't similar enough to it (comparison uses a user-specified similarity threshold) are discarded so that fewer than 500 sequences remain
 * a tree is constructed using fasttree for use with hyphy
 * FUBAR analysis is performed on the remaining sequences 
 * alignments are combnined into MSA
